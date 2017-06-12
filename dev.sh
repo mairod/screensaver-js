@@ -1,0 +1,2 @@
+cd ./Sources
+npm start

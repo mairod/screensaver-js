@@ -1,0 +1,28 @@
+{
+  "name": "creative-boilerplate",
+  "version": "0.2.0",
+  "config": {
+    "port": "3000"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --port $npm_package_config_port",
+    "https": "webpack-dev-server --port $npm_package_config_port --https",
+    "build": "mkdir build & cp ./src/*.html ./build/ & cp -R ./src/assets ./build/assets & webpack -p"
+  },
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.0.0-beta.5",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "paths": {},
+  "devDependencies": {
+    "postcss-loader": "^2.0.5"
+  }
+}

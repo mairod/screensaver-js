@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="de-DE">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Screensaver Demo</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+  <style>
+body {
+  background: #fff;
+}
+
+.monitor {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+
+.monitor .panel,
+.monitor .neck,
+.monitor .foot {
+  background: #18202d;
+}
+
+.monitor .panel {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.monitor .neck {
+  width: 10%;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.monitor .foot {
+  width: 50%;
+  height: 20px;
+  margin: 0 auto;
+  border-radius: 2px 2px 5px 5px;
+}
+
+.monitor .screen {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 51%;
+}
+
+.monitor .browser {
+  border: 0;
+  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+  </style>
+</head>
+<body>
+
+<div class="monitor">
+  <div class="panel">
+    <div class="screen">
+      <iframe class="browser" src="./screen.nw/index.html"></iframe>
+    </div>
+  </div>
+  <div class="neck"></div>
+<div class="foot"></div>
+</div>
+
+</body>
+</html>
