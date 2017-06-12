@@ -29,7 +29,7 @@ The ```Sources/build``` folder can be entirely rebuild from the src folder, so D
 
 Installation of Webpack : ```npm i -g webpack webpack-dev-server@2```
 
-##To start :
+## To start :
 
 1. Clone the project & ```cd path/to/the/clonned/repository```
 2. Run ```sh install.sh```
@@ -38,7 +38,7 @@ Installation of Webpack : ```npm i -g webpack webpack-dev-server@2```
 
 NOTE : The dev port is configurable in the ```package.json```
 
-##To build :
+## To build :
 
 Run ```sh build.sh```
 
