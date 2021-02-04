@@ -33,7 +33,7 @@ Installation of Webpack : ```npm i -g webpack webpack-dev-server@2```
 
 1. Clone the project & ```cd path/to/the/clonned/repository```
 2. Run ```sh install.sh```
-3. Run ```sh run.sh```
+3. Run ```sh dev.sh```
 4. Go to ```localhost:3000``` on your browser.
 
 NOTE : The dev port is configurable in the ```package.json```
